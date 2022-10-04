@@ -1,0 +1,20 @@
+CountdownMSG: "§e{number} Votes§6 remaining until vote party" # Message à diffuser lorsqu’une personne a voté.
+VotestoVoteParty: 2 # Combien de votes pour lancer le parti.
+WhenReached: "§eWe'ont atteint §650 Votes§e! Chacun a reçu §6$5 Store Credit, 2 Clés Supérieures, 5 Septuple Cryptique, 5 Spawners Vex et 1 Décodeur De Cristal" # Message to broadcast when countdown reached
+ErrorRunning: « Cette commande ne peut être exécutée que par la console! »
+BetterVotingSupport: true # Cela ajoutera la prise en charge de BetterVoting et désactivera la commande, Définir sur 'true' à utiliser.
+PocketVoteSupport: false # Cela ajoutera la prise en charge de BetterVoting et désactivera la commande, Définir sur 'true' à utiliser.
+commandtoRun: 
+  # Ils ne doivent pas inclure le premier « / » et ils doivent être entre guillemets.
+  # Il est recommandé d’insérer la variable username entre guillemets ( ») pour vous assurer qu’elle
+  # Selectors:
+  #   @a - All Players, this is experimental 
+  - 'givekey septuple "@a" 5'
+  - 'k credit "@a" 5'
+  - 'givekey superior "@a" 2'
+  - 'aa'
+  - 'st * §a§lVote Party{SUBTITLE}§6Activated!'
+  - 'nh vex 5 "@a"'
+  - 'givekey randomcrystal "@a" 1'
+
+config-verison: 1 # S’il vous plaît, ne changez pas cela.

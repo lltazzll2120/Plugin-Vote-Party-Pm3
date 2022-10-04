@@ -1,0 +1,23 @@
+name: VoteParty
+author: Tazz
+api: 3.0.0
+version: 1.1
+main: Tazz\VoteParty\Main
+softdepend:
+  - BetterVoting
+  - PocketVote
+commands:
+  voteparty:
+    description: "Appelez l’événement VoteParty"
+    permission: "voteparty.use"
+  votepartyreset:
+    description: "Réinitialiser le compteur VoteParty"
+    permission: "voteparty.reset"
+
+permissions:
+  voteparty.use:
+    description: "Autorisation d’utiliser voteparty"
+    default: op
+  voteparty.reset:
+    description: "Autorisation d’utiliser votepartyreset"
+    default: op
